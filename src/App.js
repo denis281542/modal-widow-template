@@ -1,23 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import { ModalWindow } from "./ModalWindow";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      lorem ipsum dolor sit amet, consectetur adip lorem
+      lorem ipsum dolorlo lorem
+      lo151
+      lorem ipsum dolor sit amet, consectetur adip lorem
+      lorem ipsum dolorlo lorem
+      lo151
+      lorem ipsum dolor sit amet, consectetur adip lorem
+      lorem ipsum dolorlo lorem
+      lo151
+      lorem ipsum dolor sit amet, consectetur adip lorem
+      lorem ipsum dolorlo lorem
+      lo151
+
+      lorem ipsum dolor sit amet, consectetur adip lorem
+      lorem ipsum dolorlo lorem
+      lo151
+      lorem ipsum dolor sit amet, consectetur adip lorem
+      lorem ipsum dolorlo lorem
+      lo151
+      lorem ipsum dolor sit amet, consectetur adip lorem
+      lorem ipsum dolorlo lorem
+      lo151
+      lorem ipsum dolor sit amet, consectetur adip lorem
+      lorem ipsum dolorlo lorem
+      lo151
+
+      lorem ipsum dolor sit amet, consectetur adip lorem
+      lorem ipsum dolorlo lorem
+      lo151
+      <ModalWindow
+        btnOpen="open modal"
+        closeIcon="x"
+        title="title"
+        text="Modal text"
+        buttonCancel="Cancel"
+        buttonSubmit="Submit"
+      />
     </div>
   );
 }

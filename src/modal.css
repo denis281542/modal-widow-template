@@ -1,0 +1,53 @@
+.App {
+  width: 60vw;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.3); 
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .2s;
+}
+
+.modal--active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal__window {
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal__btn-close {
+  align-self: end;
+  width: 25px;
+}
+
+.modal__inner {
+  padding: 20px;
+  text-align: center;
+}
+
+.modal__buttons button {
+  margin-right: 10px;
+}
+
+.modal__buttons button:last-child {
+  margin-right: 0;
+}
