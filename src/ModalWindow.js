@@ -16,7 +16,6 @@ export const ModalWindow = (props) => {
         <button
             onClick={() => {
                 setOpen(true)
-                // document.body.style.transform = "scale(.9)";
             }}
         >{props.btnOpen}</button>
 
